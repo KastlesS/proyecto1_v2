@@ -1,5 +1,3 @@
-<?php include ("datos.php") ?>
-<?php include ("utiles.php") ?>
 <!--DOCTYPE html -->
 <html>
 <head>
@@ -46,7 +44,7 @@
                 //Verificamos que si la varible declarada en datos.php $loggedIn si es verdadera se mostrará en el header el apartado de ADMINISTRACIÓN
                 if($loggedIn){
                     ?>
-                        <li class="nav-item"><a href="index.php" class="nav-link">ADMINISTRACION</a></li>
+                        <li class="nav-item"><a href="contacto_lista.php" class="<?=($_SERVER['SCRIPT_NAME']=="/contacto_lista.php")?"nav-link active":"nav-link"?>">ADMINISTRACION</a></li>
                     <?php
                 }
             ?>

@@ -1,0 +1,40 @@
+{
+   "usuarios": [
+        {
+            "clave": "1",
+            "nombre": "Ivan",
+            "email": "ivankasty2@gmail.com",
+            "password": "ivan123"
+        },
+        {
+            "clave": "2",
+            "nombre": "Nicolas",
+            "email": "nicolas@gmail.com",
+            "password": "nicolas123"
+        },
+        {
+            "clave": "3",
+            "nombre": "Pepe",
+            "email": "pepe@gmail.com",
+            "password": "pepe123"
+        },
+        {
+            "clave": "4",
+            "nombre": "Jaime",
+            "email": "jaime@gmail.com",
+            "password": "jaime123"
+        },
+        {
+            "clave": "5",
+            "nombre": "Sami",
+            "email": "sami@gmail.com",
+            "password": "sami123"
+        },
+        {
+            "clave": "6",
+            "nombre": "Marcos",
+            "email": "marcos@gmail.com",
+            "password": "marcos123"
+        }
+   ]
+}

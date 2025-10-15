@@ -54,4 +54,15 @@
         $proyecto['fecha']= strtotime($proyecto['fecha']);
         return $proyecto['fecha'];
     }
+
+    function verificarUser($email,$pass,$users){
+        $flag=false;
+        foreach($users as $u){
+            if($u['email']==$email && $u['password']==$pass){
+                $flag=true;
+                break;
+            }
+        }
+        return $flag;
+    }
 ?>
