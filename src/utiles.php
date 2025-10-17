@@ -65,4 +65,14 @@
         }
         return $flag;
     }
+
+    function verificarCampo($campo, $valor,$users){
+        $flag=false;
+        foreach($users as $u){
+            if($u[$campo]==$valor){
+                $flag=true;
+            }
+        }
+        return $flag;
+    }
 ?>

@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 <!-- Incluimos todos los archivos que necesitamos (header.php, datos.php, utiles.php y footer.php)-->
 <?php require_once ("datos.php")?>
 <?php require_once ("utiles.php")?>

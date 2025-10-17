@@ -1,3 +1,5 @@
+<?php include_once ("datos.php")?>
+<?php include_once ("utiles.php")?>
 <!--DOCTYPE html -->
 <html>
 <head>
@@ -45,9 +47,13 @@
                 if($loggedIn){
                     ?>
                         <li class="nav-item"><a href="contacto_lista.php" class="<?=($_SERVER['SCRIPT_NAME']=="/contacto_lista.php")?"nav-link active":"nav-link"?>">ADMINISTRACION</a></li>
+                        <li class="nav-item"><a href="logout.php" class="nav-link">LOG OUT</a></li>
+                    <?php
+                }else{
+                    ?>
+                    <li class="nav-item"><a href="login.php" class="<?=($_SERVER['SCRIPT_NAME']=="/login.php")?"nav-link active":"nav-link"?>">LOGIN</a></li>
                     <?php
                 }
             ?>
-            <li class="nav-item"><a href="login.php" class="<?=($_SERVER['SCRIPT_NAME']=="/login.php")?"nav-link active":"nav-link"?>">LOGIN</a></li>
         </ul>
     </header>

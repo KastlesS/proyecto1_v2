@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 <?php
     $nombreCompleto = "Iván Castillo Simón";
 
@@ -29,5 +30,9 @@
             "nombre" => "Transporte",
         ],
     ];
+    $loggedIn=false;
+    if(isset($_SESSION['user_email'])){
+        $loggedIn=true;
+    }
 
 ?>
